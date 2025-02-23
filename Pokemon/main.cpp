@@ -2,12 +2,21 @@
 #include <string>
 using namespace std;
 
-enum PokemonChoice
+enum class PokemonChoice
 {
 Balbasaur,
 Charmander,
 Squirtle,
 InvalidChoice
+};
+
+enum class PokemonType
+{
+    Fire,
+    Electric,
+    Water,
+    Earth,
+    Normal
 };
 
 int main()
