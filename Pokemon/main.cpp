@@ -117,7 +117,7 @@ public:
     }
 };
 
-//professor oak class defination
+// professor oak class defination
 class ProfessorOak
 {
     // Atttributes
