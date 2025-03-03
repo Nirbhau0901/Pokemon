@@ -130,6 +130,24 @@ public:
         name = p_name;
     }
 
+    // method to explain the main quest
+    void explainMainQuest(Player& player)
+    {
+        cout << "Professor Oak: Oak-ay " << player.name << "!, I am about to explaain you about your upcoming grand adventure." << endl;
+        cout << "Professor Oak: You see, becoming a Pokemon Master is no easy feat, it takes courage, wisdom and a bit of luck!" << endl;
+        cout << "Professor Oak: Your mission, should you choose to accept it-and trust me, you really don't have a choice-is to collect all the Pokemon Badges and conqure the Pokemon League" << endl;
+        cout << "\n" << player.name << ": That sounds like every other Pokemon game out there..." << endl;
+        cout << "Professor Oak: SHHHHHHHH! Don't break the fourth wall, " << player.name << "! This is serious buisness!" << endl;
+        cout << "Professor Oak: To achieve this, you'll need to battle wild Pokemon, challenge gym leaders, and of course, keep your Pokemon healthy at the PokeCenter." << endl;
+        cout << "Professor Oak: Along the way, you'll capture new Pokeon to strengthen your team. Just remember--there is a limit to how many Pokemon you can carry, so choose wisely!" << endl;
+        cout << "\n" << player.name << ": Sounds like a walk in the park... right?" << endl;
+        cout << "Professor Oak: Hah! Thats what they all say! But beware, young trainer the path to victroy is fraught with challenges, and if you loose a battle... lets just say you'll be starting from square one." << endl;
+        cout << "Professor Oak: So, what do you say? Are you ready to become the next Pokemon Champion?" << endl;
+        cout << "\n" << player.name << ": Ready as i'll ever be, Professor!" << endl;
+        cout << "Professor Oak: That's the spirit! Now your Journey begins..." << endl;
+        cout<<"Professor Oak: But first... Lets just pretend I didn't forget to set up the actual game loop... Ahem, Onwards"
+    }
+
     //method to greet player
     void greetPlayer(Player& player)
     {
@@ -161,30 +179,9 @@ public:
 
 int main()
 {
-    // Task 1: test default and parameterized constructor  
-    Pokemon defaultPokemon; //using default constructor
+// create Pokemon and player for the game
     Pokemon charmander("Charmander", PokemonType::FIRE, 100); //using parameterized consructor 
 
-    cout << "Pokemon Details" << endl;
-    cout << "Name: " << defaultPokemon.name << "\nType: " << (int)defaultPokemon.type << "\nHealth: " << defaultPokemon.health << "\n";
-    cout << "Name: " << charmander.name << "\nType: " << (int)charmander.type << "\nHealth: " << charmander.health << "\n";
-
-    // Task 2: Test the copy constructor
-    Pokemon bulbasaur("Bulbasaur", PokemonType::GRASS, 100); // create a pokemon
-    Pokemon bulbasaurCopy = bulbasaur; //copied pokemon
-    cout << "Original Pokemon Health: " << bulbasaur.health << endl;
-    cout << "Coppied Pokemon Health: " << bulbasaurCopy.health << endl;
-
-    // modify the coppied pokemon
-    bulbasaurCopy.health = 80;
-    cout << "After modification." << endl;
-    cout << "Original Pokemon Health: " << bulbasaur.health << endl;
-    cout << "Coppied Pokemon Health: " << bulbasaurCopy.health << endl;
-
-    // Task 3: Test the destructor
-    {
-        Pokemon squirtle("Squirtle", PokemonType::WATER, 100); //pokemon will be destroyed at the end of this scope
-    }//destructor will be called here
 
     // initialize Professor Oak and player with default placeholder values
 
@@ -192,11 +189,14 @@ int main()
 
     Pokemon placeholderPokemon("Placeholder", FIRE, 0);
 
-    Player player(" ", placeholderPokemon);
+    Player player("Ash", charmander);
 
     // greeting the player and ofeering Pokemon choice
     professor.greetPlayer(player);
     professor.offerPokemonChoices(player);
+
+    // explaining main quest
+    professor.explainMainQuest(player);
 
     // concluding the first chapter
     cout << "Professor Oak: " << player.chosenPokemon.name << " and you " << player.name << ", are going to be best of friends!\\n"; std::cout << "Professor Oak: Upir journey begins now! Get ready too explore the vast world of Pokemon!\\n";
