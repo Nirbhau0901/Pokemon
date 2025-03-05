@@ -1,3 +1,6 @@
+#include "PokemonChoice"
+#include "PokemonType.hpp"
+#include <limits> // include this header to use numeric limits
 #include <iostream>
 #include <string>
 using namespace std;
@@ -19,24 +22,8 @@ void waitForEnter()
     cin.get();  //wait for enter key
 }
 
-// defining an enum class for Pokemon choice
-enum class PokemonChoice
-{
-    CHARMANDER = 1,
-    BULBASAUR,
-    SQUIRTLE,
-    PIKACHU // default choice
-};
 
-// defining an enum class for Pokemon type
-enum class PokemonType
-{
-    FIRE,
-    GRASS,
-    WATER,
-    ELECTRIC,
-    NORMAL //Added for default constructor
-};
+
 
 //Pokemon class defination
 class Pokemon
