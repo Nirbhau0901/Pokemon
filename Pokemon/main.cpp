@@ -1,4 +1,6 @@
+#include "Player.hpp"
 #include "PokemonChoice.hpp"
+#include "PokemonType.hpp"
 #include "Utility.hpp"
 #include <iostream>
 #include <limits> // include this header to use numeric limits
