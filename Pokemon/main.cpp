@@ -7,56 +7,9 @@
 using namespace std;
 
 
-
-//Pokemon class defination
-class Pokemon
-{
-public:
-    //Attributes
-    string name;
-    PokemonType type;
-    int health;
-
-    //default constructor
-    Pokemon()
-    {
-        name = "Pikachu";
-        type = PokemonType::ELECTRIC;
-        health = 10;
-        cout << "A new Pokemon has been created using default constructor" << endl;
-    }
-
-    // parameterized constructor
-    Pokemon(string p_name, PokemonType p_type, int p_health)
-    {
-        name = p_name;
-        type = p_type;
-        health = p_health;
-        cout << "A new Pokemon named " << name << " has been created using parameterized constructor" << endl;
-    }
-
-    // copy constructor
-    Pokemon(const Pokemon& other)
-    {
-        name = other.name;
-        type = other.type;
-        health = other.health;
-        cout << "A new Pokemon has been coppied from " << other.name << endl;
-    }
-
-    //destructor
-    ~Pokemon()
-    {
-        cout << name << " has been released." << endl;
-    }
-
-    //method to simulate attack function (just for demonstration)
-    void attack() { cout << name << " attacks with a powerful move!" << endl; }
-};
-
 #include "Player.hpp"
 
-class ProfessirOak
+class ProfessorOak
 {
 public:
     string name;

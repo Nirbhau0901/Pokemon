@@ -1,5 +1,3 @@
-#pragma once
-
 // defining an enum class for Pokemon choice
 enum class PokemonChoice
 {
