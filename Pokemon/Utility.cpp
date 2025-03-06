@@ -11,7 +11,7 @@ void Utility::clearConsole()
 	#ifdef_WIN32
 		system("cls");
 #else
-system("clear");
+void system("clear");
 #endif
 }
 
