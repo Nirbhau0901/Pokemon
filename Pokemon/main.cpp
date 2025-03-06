@@ -1,7 +1,6 @@
 #include "PokemonChoice"
 #include "PokemonType.hpp"
 #include "Utility.hpp"
-#include "Player.hpp"
 #include <limits> // include this header to use numeric limits
 #include <iostream>
 #include <string>
@@ -55,17 +54,7 @@ public:
     void attack() { cout << name << " attacks with a powerful move!" << endl; }
 };
 
-// player class defination
-//class Player
-// {
-//public:
-    //Attributes 
-   // string name;
-   // Pokemon chosenPokemon;
-
-    //default constructor
-   
-// };
+#include "Player.hpp"
 
 class ProfessirOak
 {
