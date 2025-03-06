@@ -1,6 +1,7 @@
 #include "PokemonChoice"
 #include "PokemonType.hpp"
 #include "Utility.hpp"
+#include "Player.hpp"
 #include <limits> // include this header to use numeric limits
 #include <iostream>
 #include <string>
@@ -55,55 +56,19 @@ public:
 };
 
 // player class defination
-class Player
-{
-public:
+//class Player
+// {
+//public:
     //Attributes 
-    string name;
-    Pokemon chosenPokemon;
+   // string name;
+   // Pokemon chosenPokemon;
 
     //default constructor
-    Player()
-    {
-        name = "Trainer";
-        chosenPokemon = Pokemon;
-        cout << "A new player " << name << " has been created" << endl;
-    }
+   
+// };
 
-    // parameterized constructor
-    Player(std::string p_name, Pokemon p_chosenPokemon)
-    {
-        name = p_name;
-        chosenPokemon = p_chosenPokemon;
-        cout << "Player " << name << " has been created" << endl;
-    }
-
-    //method to choose the pokemon
-    void chosenPokemon(int choice)
-    {
-        switch ((PokemonChoice)choice)
-        {
-        case PokemonChoice::CHARMANDER:
-            chosenPokemon = Pokemon("Charmander", PokemonType::FIRE, 100);
-            break;
-
-        case PokemonChoice::BULBASAUR:
-            chosenPokemon = Pokemon("Bulbasaur", PokemonType::GRASS, 100);
-            break;
-
-        case PokemonChoice::SQUIRTLE:
-            chosenPokemon = Pokemon("Squirtle", PokemonType::WATER, 100);
-            break;
-
-        default:
-            chosenPokemon = Pokemon("Pikachu", PokemonType::ELECTRIC, 100);
-            break;
-        }
-
-        cout << "Player " << name << " chose " << chosenPokemon.name << " !" << endl;
-        Utility::waitForEnter(); // wait for user to press enter
-    }
-};
+class ProfessirOak
+{
 public:
     string name;
 
@@ -170,7 +135,7 @@ public:
         Utility::waitForEnter();
         cout << "\n" << player.name << ": Sounds like a walk in the park... right?" << endl;
         Utility::waitForEnter();
-        cout << "Professor Oak: Hah! Thats what they all say! But beware, "<<player.name<<" the path to victroy is filled with challenges, and if you loose a battle... lets just say you'll be starting from square one." << endl;
+        cout << "Professor Oak: Hah! Thats what they all say! But beware, " << player.name << " the path to victroy is filled with challenges, and if you loose a battle... lets just say you'll be starting from square one." << endl;
         utility::waitForEnter();
         cout << "Professor Oak: So, what do you say? Are you ready to become the next Pokemon Champion?" << endl;
         Utility::waitForEnter();
@@ -182,6 +147,7 @@ public:
         Utility::waitForEnter();
     }
 };
+
 
 void gameLoop(Player&player)
 {
