@@ -154,13 +154,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Pokemon.cpp" />
+    <ClCompile Include="ProfessorOak.cpp" />
+    <ClCompile Include="Utility.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".idea\.idea.Pokemon\.idea\indexLayout.xml" />
     <Content Include=".idea\.idea.Pokemon\.idea\vcs.xml" />
     <Content Include=".idea\.idea.Pokemon\.idea\workspace.xml" />
     <Content Include="Pokemon.vcxproj.filters" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Pokemon.h" />
+    <ClInclude Include="PokemonChoice.h" />
+    <ClInclude Include="PokemonType.h" />
+    <ClInclude Include="ProfessorOak.h" />
+    <ClInclude Include="Utility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pokemon\x64\Debug\Pokemon.exe.recipe" />
+    <None Include="Pokemon\x64\Debug\vc143.idb" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

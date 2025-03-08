@@ -1,3 +1,4 @@
+#pragma once
 // defining an enum class for Pokemon type
 enum class PokemonType
 {

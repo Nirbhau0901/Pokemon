@@ -1,6 +1,6 @@
 // Utility.cpp
 
-#include "Utility.hpp"
+#include "Utility.h"
 #include <iostream>
 #include <limits>
 
@@ -8,11 +8,7 @@ using namespace std;
 
 void Utility::clearConsole()
 {
-	#ifdef_WIN32
-		system("cls");
-#else
-void system("clear");
-#endif
+system("clear");
 }
 
 void Utility::waitForEnter()

@@ -1,6 +1,7 @@
 #include "Game.h"
 #include "Player.h"
 #include "ProfessorOak.h"
+#include "Pokemon.h"
 #include <iostream>
 #include <limits> // include this header to use numeric limits
 #include <string>
@@ -27,8 +28,10 @@ int main()
     // explaining main quest
     professor.explainMainQuest(player);
 
+    Game game;
+
     //start the main game loop
-    gameLoop(player);
+    game.gameLoop(player);
 
     return 0;
 }
