@@ -28,10 +28,10 @@ int main()
     // explaining main quest
     professor.explainMainQuest(player);
 
-    Game game;
+    Game game;// creating game object 
 
     //start the main game loop
-    game.gameLoop(player);
+    game.gameLoop(player); // calling function from object 
 
     return 0;
 }
