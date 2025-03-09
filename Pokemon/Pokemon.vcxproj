@@ -173,6 +173,7 @@
     <ClInclude Include="Pokemon.h" />
     <ClInclude Include="PokemonChoice.h" />
     <ClInclude Include="PokemonType.h" />
+    <ClInclude Include="grass.h" />
     <ClInclude Include="ProfessorOak.h" />
     <ClInclude Include="Utility.h" />
   </ItemGroup>

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\grass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:grass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\PokemonType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:PokemonType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\Utility.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:Utility.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\ProfessorOak.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:ProfessorOak.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\PokemonType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|solutionrelative:PokemonType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{872261CB-D6AC-488B-91C5-1B44032596F2}|Pokemon.vcxproj|D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\Pokemon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -58,6 +62,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "grass.h",
+              "DocumentMoniker": "D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\grass.h",
+              "RelativeDocumentMoniker": "grass.h",
+              "ToolTip": "D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\grass.h",
+              "RelativeToolTip": "grass.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-09T07:21:55.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Utility.cpp",
               "DocumentMoniker": "D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\Utility.cpp",
               "RelativeDocumentMoniker": "Utility.cpp",
@@ -70,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProfessorOak.cpp",
               "DocumentMoniker": "D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\ProfessorOak.cpp",
               "RelativeDocumentMoniker": "ProfessorOak.cpp",
@@ -78,25 +95,24 @@
               "RelativeToolTip": "ProfessorOak.cpp",
               "ViewState": "AQIAADwAAAAAAAAAAAAAAEgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-08T15:29:23.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T15:29:23.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PokemonType.h",
               "DocumentMoniker": "D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\PokemonType.h",
               "RelativeDocumentMoniker": "PokemonType.h",
               "ToolTip": "D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\PokemonType.h",
               "RelativeToolTip": "PokemonType.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-08T15:11:26.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Pokemon.cpp",
               "DocumentMoniker": "D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\Pokemon.cpp",
               "RelativeDocumentMoniker": "Pokemon.cpp",
@@ -104,12 +120,11 @@
               "RelativeToolTip": "Pokemon.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-08T15:25:44.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T15:25:44.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Player.cpp",
               "DocumentMoniker": "D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\Player.cpp",
               "RelativeDocumentMoniker": "Player.cpp",
@@ -117,12 +132,11 @@
               "RelativeToolTip": "Player.cpp",
               "ViewState": "AQIAAA4AAAAAAAAAAAAkwBoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-08T15:21:44.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T15:21:44.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Pokemon.h",
               "DocumentMoniker": "D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\Pokemon.h",
               "RelativeDocumentMoniker": "Pokemon.h",
@@ -130,12 +144,11 @@
               "RelativeToolTip": "Pokemon.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-08T15:14:30.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T15:14:30.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
@@ -143,12 +156,11 @@
               "RelativeToolTip": "main.cpp",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-08T15:10:21.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T15:10:21.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Game.cpp",
               "DocumentMoniker": "D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\Game.cpp",
               "RelativeDocumentMoniker": "Game.cpp",
@@ -156,12 +168,11 @@
               "RelativeToolTip": "Game.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-08T15:09:43.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T15:09:43.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Player.h",
               "DocumentMoniker": "D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\Player.h",
               "RelativeDocumentMoniker": "Player.h",
@@ -169,12 +180,11 @@
               "RelativeToolTip": "Player.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-08T15:09:03.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T15:09:03.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Game.h",
               "DocumentMoniker": "D:\\Git Cloned repositories\\Pokemon\\Pokemon\\Pokemon\\Game.h",
               "RelativeDocumentMoniker": "Game.h",
@@ -182,19 +192,17 @@
               "RelativeToolTip": "Game.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-08T15:06:49.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T15:06:49.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ProfessorOak.cpp",
               "DocumentMoniker": "C:\\Users\\natsu\\source\\repos\\ProfessorOak.cpp",
               "ToolTip": "C:\\Users\\natsu\\source\\repos\\ProfessorOak.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-08T15:04:04.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T15:04:04.42Z"
             }
           ]
         }
